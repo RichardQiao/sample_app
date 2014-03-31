@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'guard-spork'
+
+gem 'bootstrap-sass', '2.3.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0.rc1'
@@ -44,4 +47,6 @@ gem 'spring',        group: :development
 
 group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'guard-rspec'
+  gem 'spork-rails'
 end
